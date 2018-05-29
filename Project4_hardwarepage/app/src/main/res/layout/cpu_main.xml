@@ -34,7 +34,7 @@
         android:id="@+id/imageView2"
         android:layout_width="94dp"
         android:layout_height="161dp"
-        app:srcCompat="@mipmap/core_i9_gpu_"
+        app:srcCompat="@drawable/core_i9_gpu"
         tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="109dp" />
 
