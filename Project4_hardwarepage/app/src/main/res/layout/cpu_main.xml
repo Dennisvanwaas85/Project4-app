@@ -18,7 +18,7 @@
         android:id="@+id/textView4"
         android:layout_width="162dp"
         android:layout_height="71dp"
-        android:text="Intel Core i9-7900X X-Series 3.3 GHz Ten-Core LGA 2066 Processor"
+        android:text="Intel Core Processor"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="296dp" />
 
@@ -26,7 +26,7 @@
         android:id="@+id/textView3"
         android:layout_width="162dp"
         android:layout_height="71dp"
-        android:text="Description\n + hiering beschrijf ik het product"
+        android:text="Ryzen Processor"
         tools:layout_editor_absoluteX="192dp"
         tools:layout_editor_absoluteY="296dp" />
 
