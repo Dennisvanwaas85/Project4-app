@@ -38,6 +38,15 @@
         tools:layout_editor_absoluteX="233dp"
         tools:layout_editor_absoluteY="81dp" />
 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="94dp"
