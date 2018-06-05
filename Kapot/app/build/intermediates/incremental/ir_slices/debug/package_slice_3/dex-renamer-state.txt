@@ -1,0 +1,4 @@
+#Wed May 30 12:36:30 CEST 2018
+base.0=/Users/dennisvanwaas/Documents/GitHub/Project4-app/Project4_hardwarepage/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex
