@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">PcBuilder</string>
     <string name="action_settings">Settings</string>
+    <string name="cpu">Cpu</string>
+    <string name="intel_core_processor">Intel Core Processor</string>
+    <string name="ryzen_processor">Ryzen Processor</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="memory">Memory</string>
+    <string name="description_n_hiering_beschrijf_ik_het_product">Description  + hiering beschrijf ik het product</string>
+    <string name="todo">TODO</string>
+    <string name="proccesor_3">Proccesor 3</string>
+    <string name="proccesor_4">Proccesor 4</string>
+    <string name="proccesor_2">Proccesor 2</string>
+    <string name="todo">TODO</string>
+    <string name="intell_proccesors">Intell Proccesors</string>
+    <string name="proccesor_1">Proccesor 1</string>
 </resources>
