@@ -2,3 +2,20 @@
     position: relative;
     margin-bottom: 20px;
 }
+.intro{
+	text-align: center;
+}
+.cpu{
+	width: 100%;
+	max-height: 50%;	
+	margin: 0;
+	padding: 0;
+}
+.blockrow{
+	margin: 0;
+}
+.blocks{
+	margin: 0;
+	padding: 0;
+
+}
