@@ -2,28 +2,181 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Part Picker</title>
+    <title> </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<div class="card" style="width: 100% height: 100%;">
-  <img class="card-img-top" src="assets/img/partslogo.png" alt="Card image cap">
-  <div class="card-body" style="width: 100% height: 100% margin: 0 auto;" >
-    <h5 class="card-title">Home</h5>
-    <p class="card-text">Welkom bij Part Picker. Binnen deze app kunt u navigeren naar verschillende computer onderdelen om zo je ideale pc samen te stellen
-	klik op de Get Started button om verder te gaan naar de componenten.</p>
-  </div>
-  <div class="card-body">
-    <a href="index.html" class="card-link">Get started</a>
-  </div>
-</div>
-<!--<a href="Get Started.html" <button>Get Started</button> </a> -->
-
 <body>
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="config.html">Configuratielijst</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+<section>
+    <div class="col-md-12 intro">
+        <h1>PC Part picker</h1>
+    </div>
+    <div class="row blockrow">
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="cpu" class="cpu" src="assets/img/cpu.jpg" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">CPU</h5>
+                    <p class="card-text">Kies je favoriete CPU</p>
+                   <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je CPU</option>
+                        <option value="1">Intel Core i7 8086K</option>
+                        <option value="2">Intel Core i5 8400</option>
+                        <option value="3">Intel Core i3 8350K</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="mobo" class="cpu" src="assets/img/mobo.jpeg" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">Moederbord</h5>
+                    <p class="card-text">Kies je favoriete Moederbord</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je moederbord</option>
+                        <option value="1">Asrock Fatal1ty Z370</option>
+                        <option value="2">Asus Maximus X Code</option>
+                        <option value="3">MSI B360 GAMING ARCTIC</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="ram" class="cpu" src="assets/img/ram.png" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">Werkgeheugen</h5>
+                    <p class="card-text">Kies je favoriete Werkgeheugen</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je werkgeheugen</option>
+                        <option value="1">Corsair Platinum 2x16GB 3000</option>
+                        <option value="2">Ballistix Elite 8GB DDR4 3466</option>
+                        <option value="3">Corsair Dominator 2x16GB 3200</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="case" class="cpu" src="assets/img/case.jpg" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">Kast</h5>
+                    <p class="card-text">Kies je favoriete kast</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je kast </option>
+                        <option value="1">Silverstone FT04</option>
+                        <option value="2">Corsair Crystal 570X RGB</option>
+                        <option value="3">Phanteks Enthoo Evolv ATX</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="cpuk" class="cpu" src="assets/img/cpukoeler.png" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">CPU koeler</h5>
+                    <p class="card-text">Kies je favoriete CPU koeler</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je CPU koeler</option>
+                        <option value="1">Noctua NH-D15</option>
+                        <option value="2">Noctua NH-D9L</option>
+                        <option value="3">be quiet! Dark Rock 3</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="video" class="cpu" src="assets/img/gpu.jpg" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">Videokaart</h5>
+                    <p class="card-text">Kies je favoriete videokaart</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je videokaart</option>
+                        <option value="1">Gigabyte GeForce GTX 1080</option>
+                        <option value="2">Gigabyte GeForce GTX 1080 Mini ITX 8G</option>
+                        <option value="3">MSI GeForce GTX 1080 TI GAMING X</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="ssd" class="cpu" src="assets/img/ssd.jpeg" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">Opslagmedium</h5>
+                    <p class="card-text">Kies je favoriete opslagmedium</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je SSD </option>
+                        <option value="1">Crucial SSD MX500 1TB</option>
+                        <option value="2">Samsung 960 PRO 2TB</option>
+                        <option value="3">WD SSD Blue 2TB</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="psu" class="cpu" src="assets/img/psu.jpg" alt="">
+                <div class="card-body center">
+                    <h5 class="card-title">Voeding</h5>
+                    <p class="card-text">Kies je favoriete voeding</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je voeding</option>
+                        <option value="1">Corsair AX860</option>
+                        <option value="2">Corsair HX850i</option>
+                        <option value="3">Corsair RM750x</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="config" href="config.html"><button type="button" class="btn btn-primary btn-lg btn-block confirm">Configureer</button></a>
+    </div>
+</section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
