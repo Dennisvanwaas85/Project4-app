@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="config.html">Configuratielijst</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+<section>
+    <div class="col-md-12 intro">
+        <h1>PC Part picker</h1>
+    </div>
+    <div class="row blockrow">
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="cpu" class="cpu" src="assets/img/cpu.jpg" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/cpu/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop CPU</button></a> 
+                    <p class="card-text">Kies je favoriete CPU</p>
+                   <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je CPU</option>
+                        <option value="1">Intel Core i7 8086K</option>
+                        <option value="2">Beschrijving:<dir> 4,0 GHz (5,0 GHz Turbo Boost) socket 1151 processor </option>
+                        <option value="3">Intel Core i5 8400</option>
+                        <option value="4">beschrijving:(9M Cache, up to 4.00 GHz) 2.8GHz 9MB</option>
+                        <option value="5">Intel Core i3 8350K</option>
+                        <option value="6">beschrijving: 4,0 GHz socket 1151 processor</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="mobo" class="cpu" src="assets/img/mobo.jpeg" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/motherboard/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop moederbord </button></a>
+                    <p class="card-text">Kies je favoriete Moederbord</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je moederbord</option>
+                        <option value="1">Asrock Fatal1ty Z370</option>
+                        <option value="2">beschrijving: Gaming-ITX/ac, socket 1151 moederbord</option>
+                        <option value="3">Asus Maximus X Code</option>
+                        <option value="4">beschrijving: ocket 1151 moederbord  3x PCIe x16, CrossFireX</option>
+                        <option value="5">MSI B360 GAMING ARCTIC</option>
+                        <option value="6">beschrijving: socket 1151 moederbord 2x PCIe x16, CrossFireX</option>
+                        
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="ram" class="cpu" src="assets/img/ram.png" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/memory/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop werkgeheugen </button></a>
+                    <p class="card-text">Kies je favoriete Werkgeheugen</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je werkgeheugen</option>
+                        <option value="1">Corsair Platinum 2x16GB 3000</option>
+                        <option value="2">beschrijving: 32 GB: 2 x 16 GB type DRAM </option>
+                        <option value="3">Ballistix Elite 8GB DDR4 3466</option>
+                        <option value="4">beschrijving: 8 GB type DRAM</option>
+                        <option value="5">Corsair Dominator 2x16GB 3200</option>
+                        <option value="6">beschrijving: 32 GB type SDRAM</option>
+
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="case" class="cpu" src="assets/img/case.jpg" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/case/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop kast </button></a>
+                    <p class="card-text">Kies je favoriete kast</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je kast </option>
+                        <option value="1">Silverstone FT04</option>
+                        <option value="2">beschrijving: ATX (Standard), EATX (Extended ATX), Micro-ATX</option>
+                        <option value="3">Corsair Crystal 570X RGB</option>
+                        <option value="4">beschrijving: ATX (Standard), Micro-ATX, Mini-ITX</option>
+                        <option value="5">Phanteks Enthoo Evolv ATX</option>
+                        <option value="6">beschrijving: ATX (Standard), EATX (Extended ATX), Micro-ATX</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="cpuk" class="cpu" src="assets/img/cpukoeler.png" alt="">
+                <div class="card-body center">
+                   <a class="hardwarepage" href="https://pcpartpicker.com/products/cpu-cooler/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop CPU koeler </button></a>
+                    <p class="card-text">Kies je favoriete CPU koeler</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je CPU koeler</option>
+                        <option value="1">Noctua NH-D15</option>
+                        <option value="2">beschrijving: Socket: 1155, 1156 Geluidsniveau: 19,2-24,6 dB </option>
+                        <option value="3">Noctua NH-D9L</option>
+                        <option value="4">beschrijving: Noctua NH-D9L Geluidsniveau: 16,3-22,8 dB</option>
+                        <option value="5">be quiet! Dark Rock 3</option>
+                        <option value="6">beschrijving: Socket: 1155, 1156 Geluidsniveau: 13,2-26,1 dB</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="video" class="cpu" src="assets/img/gpu.jpg" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/video-card/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop videokaart </button></a>
+                    <p class="card-text">Kies je favoriete videokaart</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je videokaart</option>
+                        <option value="1">Gigabyte GeForce GTX 1080</option>
+                        <option value="2">beschrijving: Geheugen 8 GB (GDDR5X, 256 bit) 2 Slots </option>
+                        <option value="3">Gigabyte GeForce GTX 1080 Mini ITX 8G</option>
+                        <option value="4">beschrijving: Geheugen: 16GB (GDDR5X, 256 bit) 2 Slots</option>
+                        <option value="5">MSI GeForce GTX 1080 TI GAMING X</option>
+                        <option value="6">beschrijving: Geheugen: 11 GB (GDDR5X, 352 bit) 2,5 Slots</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="ssd" class="cpu" src="assets/img/ssd.jpeg" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/internal-hard-drive/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop opslagmedium </button></a>
+                    <p class="card-text">Kies je favoriete opslagmedium</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je SSD </option>
+                        <option value="1">Crucial SSD MX500 1TB</option>
+                        <option value="2">beschrijving: Snelheid: Lezen: 560 MB/s, Schrijven: 510 MB/s</option>
+                        <option value="3">Samsung 960 PRO 2TB</option>
+                        <option value="4">beschrijving: Snelheid: Lezen: 3500 MB/s, Schrijven: 2100 MB/s</option>
+                        <option value="5">WD SSD Blue 2TB</option>
+                        <option value="6">beschrijving: Snelheid: Lezen: 560 MB/s, Schrijven: 530 MB/s</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 blocks">
+            <div class="card">
+                <img id="psu" class="cpu" src="assets/img/psu.jpg" alt="">
+                <div class="card-body center">
+                    <a class="hardwarepage" href="https://pcpartpicker.com/products/power-supply/"><button type="button" class="btn btn-primary btn-lg btn-block confirm">koop voeding </button></a>
+                    <p class="card-text">Kies je favoriete voeding</p>
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Kies hier je voeding</option>
+                        <option value="1">Corsair AX860</option>
+                        <option value="2">beschrijving: Vermogen 860 Watt Geluidsniveau: 0-28,8 dB </option>
+                        <option value="3">Corsair HX850i</option>
+                        <option value="4">beschrijving: Vermogen 850 Watt Geluidsniveau: 0-21 dB </option>
+                        <option value="5">Corsair RM750x</option>
+                        <option value="6">beschrijving: Vermogen 750 Watt Geluidsniveau: 0-25 dB </option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="config" href="config.html"><button type="button" class="btn btn-primary btn-lg btn-block confirm">Configureer</button></a>
+    </div>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
